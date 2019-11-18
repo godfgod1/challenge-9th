@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+body{
+all:unset;
+width:400px;
+height:1000px;
+font-weight:600;
+}
+
+.product{
+width:400px;
+height:450px;
+border:5px solid black;
+border-radius:5px;
+}
+.user{
+width:400px;
+height:450px;
+border:5px solid black;
+border-radius:5px;
+margin-top:5px;
+}
+
+main{
+    margin:20px;
+}
+
+.product__img{
+    display:flex;
+    justify-content:center;
+    margin-bottom:70px;
+}
+h1{
+    font-size:20px;
+    text-transform:uppercase;
+    opacity:0.8;
+}   
+p{
+    font-size:15px;
+    opacity:0.6;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    font-weight:600;
+    font-size:20px;
+    opacity:0.8;
+    margin-top:50px;
+}
+
+footer .star-rating{
+    opacity:1.0;
+    color:#FDBE50;
+}
+
+.star-rating i:last-child{
+color:#D7DDE7;
+}
+
+.bg{
+    background-image: url("https://superdevresources.com/wp-content/uploads/2016/02/material-banners.jpg");
+    height:50%;
+    width:100%;
+}
