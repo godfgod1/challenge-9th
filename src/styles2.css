@@ -5,6 +5,8 @@ all:unset;
 width:400px;
 height:1000px;
 font-weight:600;
+font-family: "Open Sans";
+font-family: sans-serif;
 }
 
 .product{
